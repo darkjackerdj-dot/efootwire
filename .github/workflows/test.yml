@@ -40,6 +40,10 @@ jobs:
           git config user.name "eFootWire Bot"
           git config user.email "actions@github.com"
 
+          if [ ! -f posted.json ]; then
+            echo "[]" > posted.json
+          fi
+
           git add news.json reels/ posted.json
 
           git diff --cached --quiet || git commit -m "Update eFootWire news and Reel"
