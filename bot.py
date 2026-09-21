@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 
 ACCESS_TOKEN = os.environ["INSTAGRAM_ACCESS_TOKEN"]
@@ -26,15 +27,36 @@ response = requests.post(
     },
 )
 
-response.raise_for_status()
-creation_id = response.json()["id"]
+print("Create response:", response.status_code)
+print("Create body:", response.text)
 
+response.raise_for_status()
+
+creation_id = response.json()["id"]
 print("Media container created:", creation_id)
 
-# 2. Publish the media
+# 2. Give Instagram time to process the image
+print("Waiting for Instagram to process media...")
+time.sleep(10)
+
+# 3. Check media container status
+status_url = f"https://graph.instagram.com/{creation_id}"
+
+status_response = requests.get(
+    status_url,
+    params={
+        "fields": "status_code",
+        "access_token": ACCESS_TOKEN,
+    },
+)
+
+print("Status response:", status_response.status_code)
+print("Status body:", status_response.text)
+
+# 4. Publish the media
 publish_url = f"https://graph.instagram.com/{IG_USER_ID}/media_publish"
 
-response = requests.post(
+publish_response = requests.post(
     publish_url,
     data={
         "creation_id": creation_id,
@@ -42,7 +64,9 @@ response = requests.post(
     },
 )
 
-response.raise_for_status()
+print("Publish response:", publish_response.status_code)
+print("Publish body:", publish_response.text)
+
+publish_response.raise_for_status()
 
 print("Instagram post published successfully!")
-print(response.json())
