@@ -84,3 +84,14 @@ jobs:
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python instagram_reel.py
+
+      - name: Save posted database
+        run: |
+          git config user.name "eFootWire Bot"
+          git config user.email "actions@github.com"
+
+          git add posted.json
+
+          git diff --cached --quiet || git commit -m "Record posted eFootWire news"
+
+          git push
