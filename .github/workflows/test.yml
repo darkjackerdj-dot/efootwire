@@ -1,7 +1,12 @@
-name: eFootWire Instagram Test
+kname: eFootWire Auto Reel
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 * * * *"
+
+permissions:
+  contents: write
 
 jobs:
   publish:
@@ -19,8 +24,29 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Publish Instagram test post
+      - name: Collect latest news
+        run: python collector.py
+
+      - name: Generate latest Reel
+        run: python reel_generator.py
+
+      - name: Commit generated Reel and news database
+        run: |
+          git config user.name "eFootWire Bot"
+          git config user.email "actions@github.com"
+
+          git add news.json reels/ posted.json
+
+          git diff --cached --quiet || git commit -m "Update eFootWire news and Reel"
+
+          git push
+
+      - name: Wait for GitHub raw file
+        run: sleep 15
+
+      - name: Publish Reel to Instagram
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
-        run: python bot.py
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python instagram_reel.py
