@@ -53,6 +53,31 @@ jobs:
       - name: Wait for GitHub raw file
         run: sleep 15
 
+      - name: Diagnose Instagram token
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+
+          token = os.environ["INSTAGRAM_ACCESS_TOKEN"]
+
+          url = "https://graph.instagram.com/v24.0/me"
+
+          r = requests.get(
+              url,
+              params={
+                  "fields": "user_id,username",
+                  "access_token": token,
+              },
+              timeout=30,
+          )
+
+          print("HTTP:", r.status_code)
+          print("Response:", r.text)
+          PY
+
       - name: Publish Reel to Instagram
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
