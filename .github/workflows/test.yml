@@ -1,4 +1,4 @@
-kname: eFootWire Auto Reel
+name: eFootWire Auto Reel
 
 on:
   workflow_dispatch:
