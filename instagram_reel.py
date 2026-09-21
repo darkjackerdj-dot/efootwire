@@ -4,7 +4,7 @@ import time
 import requests
 
 GRAPH_VERSION = "v24.0"
-GRAPH_URL = f"https://graph.facebook.com/{GRAPH_VERSION}"
+GRAPH_URL = f"https://graph.instagram.com/{GRAPH_VERSION}"
 
 ACCESS_TOKEN = os.environ["INSTAGRAM_ACCESS_TOKEN"]
 INSTAGRAM_USER_ID = os.environ["INSTAGRAM_USER_ID"]
