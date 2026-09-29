@@ -3,6 +3,8 @@ import json
 import time
 import requests
 
+from selector import select_news
+
 GRAPH_VERSION = "v24.0"
 GRAPH_URL = f"https://graph.instagram.com/{GRAPH_VERSION}"
 
@@ -37,10 +39,17 @@ if not news:
     print("No news found.")
     raise SystemExit(0)
 
-# Find first news item that has not already been posted
+# Use the exact same ordered queue as reel_generator.py
+# so the Instagram filename matches the generated Reel.
+selected_queue = select_news(news)
+
+if not selected_queue:
+    print("No fresh news available.")
+    raise SystemExit(0)
+
 selected = None
 
-for item in news:
+for item in selected_queue:
     key = item.get("url") or item.get("title")
 
     if key and key not in posted:
@@ -54,8 +63,8 @@ if not selected:
 title = selected.get("title", "eFootball News")
 source_url = selected.get("url", "")
 
-# Match generated Reel with selected news item
-index = news.index(selected) + 1
+# Match the filename used by reel_generator.py
+index = selected_queue.index(selected) + 1
 
 video_url = (
     f"https://{REPOSITORY.split('/')[0]}.github.io/"
