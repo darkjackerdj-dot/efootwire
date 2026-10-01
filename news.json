@@ -35,25 +35,25 @@
     "date": "01/10/2026"
   },
   {
-    "title": "01/10/2026 Announcements Temporary Suspension of Content Acquisition in Some Areas",
-    "url": "https://www.konami.com/efootball/en/topic/news/5904",
+    "title": "01/10/2026 Announcements Account Suspensions (01/10/2026)",
+    "url": "https://www.konami.com/efootball/en/topic/news/5907",
     "source": "KONAMI eFootball",
     "tier": "official",
     "date": "01/10/2026"
   },
   {
-    "title": "Regarding New Items in the v6.1.0 Update KONAMI - 28 September 2026",
-    "url": "https://www.konami.com/efootball/en/topic/news/5888",
+    "title": "Change to Player Card in \"Show Time: Welcome to eFootball™\" KONAMI - 1 October 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/5905",
     "source": "PES Master",
     "tier": "established",
-    "date": "28 September 2026"
+    "date": "1 October 2026"
   },
   {
-    "title": "Additional Maintenance Completed KONAMI - 24 September 2026",
-    "url": "https://www.konami.com/efootball/en/topic/news/5879",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "24 September 2026"
+    "title": "01/10/2026 Announcements Temporary Suspension of Content Acquisition in Some Areas",
+    "url": "https://www.konami.com/efootball/en/topic/news/5904",
+    "source": "KONAMI eFootball",
+    "tier": "official",
+    "date": "01/10/2026"
   },
   {
     "title": "Analysis Overall Rankings Updated | Top 10 Defensive Midfielders (09.30) Oct 1, 2026 · Amadeusz",
@@ -63,7 +63,7 @@
     "date": "2026-10-01"
   },
   {
-    "title": "2 Analysis eFootball 2027: Ranking the New Defensive Playing Styles for Midfielders",
+    "title": "4 Analysis eFootball 2027: Ranking the New Defensive Playing Styles for Midfielders",
     "url": "https://efootballhub.net/articles/260930_1-efootball-2027-ranking-the-new-defensive-playing-styles-for-midfielders",
     "source": "eFootballHub",
     "tier": "established",
@@ -74,14 +74,21 @@
     "url": "https://www.pesmaster.com/efootball-2022/",
     "source": "PES Master",
     "tier": "established",
-    "date": "24/09/2026"
+    "date": "01/10/2026"
   },
   {
     "title": "Kit Creator (Legacy Version)",
     "url": "https://www.pesmaster.com/kit-creator/",
     "source": "PES Master",
     "tier": "established",
-    "date": "24/09/2026"
+    "date": "01/10/2026"
+  },
+  {
+    "title": "Regarding New Items in the v6.1.0 Update KONAMI - 28 September 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/5888",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "28 September 2026"
   },
   {
     "title": "Kit Creator Weekly Updates - 2026-09-25 PES Master Blog - 25 September 2026",
@@ -93,6 +100,13 @@
   {
     "title": "eFootball™ Kick-Off! / “League” Mode Trailer / Free Update Released on September 24, 2026 eFootball YouTube - 24 September 2026",
     "url": "https://www.youtube.com/watch?v=3ruYiriq0es",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "24 September 2026"
+  },
+  {
+    "title": "Additional Maintenance Completed KONAMI - 24 September 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/5879",
     "source": "PES Master",
     "tier": "established",
     "date": "24 September 2026"
@@ -131,26 +145,5 @@
     "source": "PES Master",
     "tier": "established",
     "date": "14 September 2026"
-  },
-  {
-    "title": "Kit Creator Weekly Updates - 2026-09-11 PES Master Blog - 11 September 2026",
-    "url": "https://blog.pesmaster.com/2026/09/kit-creator-weekly-updates-2026-09-11.html",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "2026-09-11"
-  },
-  {
-    "title": "GRACIAS, LEO. eFootball YouTube - 10 September 2026",
-    "url": "https://www.youtube.com/shorts/ytEnDHo0FNw",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "10 September 2026"
-  },
-  {
-    "title": "Claim Ranking Rewards for eFootball™ League KONAMI - 10 September 2026",
-    "url": "https://www.konami.com/efootball/en/topic/news/5816",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "10 September 2026"
   }
 ]
