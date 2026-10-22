@@ -4,35 +4,84 @@
     "url": "https://www.konami.com/efootball/en/",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "21/10/2026"
+    "date": "22/10/2026"
   },
   {
     "title": "Let's Play eFootball™",
     "url": "https://www.konami.com/efootball/en/page/overview",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "21/10/2026"
+    "date": "22/10/2026"
   },
   {
     "title": "Version Info",
     "url": "https://www.konami.com/efootball/en/page/v6/versioninfo_v6-10",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "21/10/2026"
+    "date": "22/10/2026"
   },
   {
     "title": "eFootball™ World Festival in Bangkok",
     "url": "https://e-football.konami.net/wf/2026/_/?utm_medium=referral&utm_content=officialsitelink&utm_campaign=wf_2026&utm_source=web_efootball",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "21/10/2026"
+    "date": "22/10/2026"
   },
   {
     "title": "Online PvP Setup for eFootball™",
     "url": "https://www.konami.com/efootball/en/page/online_match",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "21/10/2026"
+    "date": "22/10/2026"
+  },
+  {
+    "title": "[Update] eFootball™ Points Official Website Issue KONAMI - 22 October 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/6018",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "22 October 2026"
+  },
+  {
+    "title": "22/10/2026 Announcements [Update] Change to Contents of eFootball™ Coin Products",
+    "url": "https://www.konami.com/efootball/en/topic/news/6017",
+    "source": "KONAMI eFootball",
+    "tier": "official",
+    "date": "22/10/2026"
+  },
+  {
+    "title": "[Update] Change to Contents of eFootball™ Coin Products KONAMI - 22 October 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/6016",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "22 October 2026"
+  },
+  {
+    "title": "22/10/2026 Announcements [Update] Change to Contents of eFootball™ Coin Products",
+    "url": "https://www.konami.com/efootball/en/topic/news/6015",
+    "source": "KONAMI eFootball",
+    "tier": "official",
+    "date": "22/10/2026"
+  },
+  {
+    "title": "eFootball - Overview",
+    "url": "https://www.pesmaster.com/efootball-2022/",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "22/10/2026"
+  },
+  {
+    "title": "Kit Creator (Legacy Version)",
+    "url": "https://www.pesmaster.com/kit-creator/",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "22/10/2026"
+  },
+  {
+    "title": "eFootball™ Coins Price Change (22/10/2026) KONAMI - 22 October 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/6009",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "22/10/2026"
   },
   {
     "title": "eFootball™ Points Official Website Issue KONAMI - 21 October 2026",
@@ -40,41 +89,6 @@
     "source": "PES Master",
     "tier": "established",
     "date": "21 October 2026"
-  },
-  {
-    "title": "20/10/2026 Announcements Using the Link Data Setting",
-    "url": "https://www.konami.com/efootball/en/topic/news/5885",
-    "source": "KONAMI eFootball",
-    "tier": "official",
-    "date": "20/10/2026"
-  },
-  {
-    "title": "16/10/2026 Announcements Change to Contents of eFootball™ Coin Products",
-    "url": "https://www.konami.com/efootball/en/topic/news/5976",
-    "source": "KONAMI eFootball",
-    "tier": "official",
-    "date": "16/10/2026"
-  },
-  {
-    "title": "16/10/2026 Announcements Change to Contents of eFootball™ Coin Products",
-    "url": "https://www.konami.com/efootball/en/topic/news/5975",
-    "source": "KONAMI eFootball",
-    "tier": "official",
-    "date": "16/10/2026"
-  },
-  {
-    "title": "eFootball - Overview",
-    "url": "https://www.pesmaster.com/efootball-2022/",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "08/10/2026"
-  },
-  {
-    "title": "Kit Creator (Legacy Version)",
-    "url": "https://www.pesmaster.com/kit-creator/",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "08/10/2026"
   },
   {
     "title": "Kit Creator Weekly Updates - 2026-10-16 PES Master Blog - 16 October 2026",
@@ -138,12 +152,5 @@
     "source": "PES Master",
     "tier": "established",
     "date": "6 October 2026"
-  },
-  {
-    "title": "Kit Creator Weekly Updates - 2026-10-02 PES Master Blog - 2 October 2026",
-    "url": "https://blog.pesmaster.com/2026/10/kit-creator-weekly-updates-2026-10-02.html",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "2026-10-02"
   }
 ]
