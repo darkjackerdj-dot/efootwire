@@ -4,35 +4,35 @@
     "url": "https://www.konami.com/efootball/en/",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "29/10/2026"
+    "date": "03/11/2026"
   },
   {
     "title": "Let's Play eFootball™",
     "url": "https://www.konami.com/efootball/en/page/overview",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "29/10/2026"
+    "date": "03/11/2026"
   },
   {
     "title": "Version Info",
     "url": "https://www.konami.com/efootball/en/page/v6/versioninfo_v6-10",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "29/10/2026"
+    "date": "03/11/2026"
   },
   {
     "title": "Online PvP Setup for eFootball™",
     "url": "https://www.konami.com/efootball/en/page/online_match",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "29/10/2026"
+    "date": "03/11/2026"
   },
   {
     "title": "CAMPAIGN",
     "url": "https://www.konami.com/efootball/en/topic/promotion/campaign/919/",
     "source": "KONAMI eFootball",
     "tier": "official",
-    "date": "29/10/2026"
+    "date": "03/11/2026"
   },
   {
     "title": "[Update] eFootball™ Points Official Website Issue KONAMI - 29 October 2026",
@@ -47,20 +47,6 @@
     "source": "PES Master",
     "tier": "established",
     "date": "29 October 2026"
-  },
-  {
-    "title": "eFootball™ Points Official Website Issue KONAMI - 28 October 2026",
-    "url": "https://www.konami.com/efootball/en/topic/news/6059",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "28 October 2026"
-  },
-  {
-    "title": "27/10/2026 Important Negative eFootball™ Coin Balance and Functional Restrictions",
-    "url": "https://www.konami.com/efootball/en/topic/news/5887",
-    "source": "KONAMI eFootball",
-    "tier": "official",
-    "date": "27/10/2026"
   },
   {
     "title": "4 Player Review Yamal: Gameplay Impressions",
@@ -98,6 +84,13 @@
     "date": "2026-10-30"
   },
   {
+    "title": "eFootball™ Points Official Website Issue KONAMI - 28 October 2026",
+    "url": "https://www.konami.com/efootball/en/topic/news/6059",
+    "source": "PES Master",
+    "tier": "established",
+    "date": "28 October 2026"
+  },
+  {
     "title": "Live Update Outside of Maintenance Times KONAMI - 26 October 2026",
     "url": "https://www.konami.com/efootball/en/topic/news/6032",
     "source": "PES Master",
@@ -131,12 +124,5 @@
     "source": "PES Master",
     "tier": "established",
     "date": "22/10/2026"
-  },
-  {
-    "title": "eFootball™ Points Official Website Issue KONAMI - 21 October 2026",
-    "url": "https://www.konami.com/efootball/en/topic/news/6002",
-    "source": "PES Master",
-    "tier": "established",
-    "date": "21 October 2026"
   }
 ]
